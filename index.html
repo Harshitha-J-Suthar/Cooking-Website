@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaj Kya Banaya Hai? | Your Favorite Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #ff6347;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .navbar h3 {
+            color: #FFD700; /* Gold color for title */
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('cooking-hero.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #FFD700; /* Gold color */
+        }
+        .hero h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #ff4500;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #cc3700;
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #ff6347;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h3>Aaj Kya Banaya Hai?</h3>
+    </nav>
+    
+    <section class="hero">
+        <h1>Aaj Kya Banaya Hai?</h1>
+        <h2>Discover & Share Delicious Recipes</h2>
+        <a href="#recipes" class="btn">Explore Recipes</a>
+    </section>
+    
+    <div class="container" id="recipes">
+        <section>
+            <h2>Featured Recipes</h2>
+            <ul>
+                <li>Classic Spaghetti Carbonara</li>
+                <li>Homemade Margherita Pizza</li>
+                <li>Healthy Avocado Salad</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>About Us</h2>
+            <p>At <strong style="color: #FFD700;">Aaj Kya Banaya Hai?</strong>, we are passionate about sharing mouth-watering recipes and cooking tips. Join us to explore flavors from around the world!</p>
+        </section>
+    </div>
+</body>
+</html>
