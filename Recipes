@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection</title>
+    <style>
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .recipe {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .recipe a.button {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .recipe a.button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="recipe-grid">
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=1" alt="Recipe 1">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish with a creamy sauce.</p>
+            <a href="recipe.html?recipe=1" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=2" alt="Recipe 2">
+            <h3>Margherita Pizza</h3>
+            <p>Fresh mozzarella, basil, and tomato sauce on crispy dough.</p>
+            <a href="recipe.html?recipe=2" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=3" alt="Recipe 3">
+            <h3>Avocado Salad</h3>
+            <p>Healthy and delicious salad with fresh veggies and avocado.</p>
+            <a href="recipe.html?recipe=3" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=4" alt="Recipe 4">
+            <h3>Grilled Chicken</h3>
+            <p>Perfectly seasoned chicken grilled to perfection.</p>
+            <a href="recipe.html?recipe=4" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=5" alt="Recipe 5">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake topped with ganache.</p>
+            <a href="recipe.html?recipe=5" class="button">View Recipe</a>
+        </div>
+
+        <div class="recipe">
+            <img src="https://picsum.photos/250/150?random=6" alt="Recipe 6">
+            <h3>Paneer Butter Masala</h3>
+            <p>Creamy and flavorful Indian curry with soft paneer cubes.</p>
+            <a href="recipe.html?recipe=6" class="button">View Recipe</a>
+        </div>
+    </div>
+</body>
+</html>
