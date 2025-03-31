@@ -3,34 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Collection</title>
+    <title>Ecommerce Products</title>
     <style>
-        .recipe-grid {
+        .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             padding: 20px;
         }
 
-        .recipe {
+        .product {
             border: 1px solid #ddd;
             padding: 15px;
             text-align: center;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .recipe img {
+        .product img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
             margin-bottom: 10px;
         }
 
-        .recipe a.button {
+        .product a.button {
             display: inline-block;
-            background-color: #ff5722;
+            background-color: #4CAF50;
             color: white;
             padding: 10px 15px;
             text-decoration: none;
@@ -38,54 +34,56 @@
             transition: background-color 0.3s;
         }
 
-        .recipe a.button:hover {
-            background-color: #e64a19;
+        .product a.button:hover {
+            background-color: #3e8e41;
         }
     </style>
 </head>
 <body>
-    <div class="recipe-grid">
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=1" alt="Recipe 1">
-            <h3>Spaghetti Carbonara</h3>
-            <p>A classic Italian pasta dish with a creamy sauce.</p>
-            <a href="recipe.html?recipe=1" class="button">View Recipe</a>
+
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=1" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <a href="cart.html?product=1" class="button">P1-Add to Cart</a>
         </div>
 
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=2" alt="Recipe 2">
-            <h3>Margherita Pizza</h3>
-            <p>Fresh mozzarella, basil, and tomato sauce on crispy dough.</p>
-            <a href="recipe.html?recipe=2" class="button">View Recipe</a>
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=2" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$24.50</p>
+            <a href="cart.html?product=2" class="button">P2-Add to Cart</a>
         </div>
 
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=3" alt="Recipe 3">
-            <h3>Avocado Salad</h3>
-            <p>Healthy and delicious salad with fresh veggies and avocado.</p>
-            <a href="recipe.html?recipe=3" class="button">View Recipe</a>
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=3" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$35.00</p>
+            <a href="cart.html?product=3" class="button">P3-Add to Cart</a>
         </div>
 
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=4" alt="Recipe 4">
-            <h3>Grilled Chicken</h3>
-            <p>Perfectly seasoned chicken grilled to perfection.</p>
-            <a href="recipe.html?recipe=4" class="button">View Recipe</a>
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=4" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>$12.75</p>
+            <a href="cart.html?product=4" class="button">p4-Add to Cart</a>
         </div>
 
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=5" alt="Recipe 5">
-            <h3>Chocolate Cake</h3>
-            <p>Rich and moist chocolate cake topped with ganache.</p>
-            <a href="recipe.html?recipe=5" class="button">View Recipe</a>
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=5" alt="Product 5">
+            <h3>Product 5</h3>
+            <p>$29.99</p>
+            <a href="cart.html?product=5" class="button">p5-Add to Cart</a>
         </div>
 
-        <div class="recipe">
-            <img src="https://picsum.photos/250/150?random=6" alt="Recipe 6">
-            <h3>Paneer Butter Masala</h3>
-            <p>Creamy and flavorful Indian curry with soft paneer cubes.</p>
-            <a href="recipe.html?recipe=6" class="button">View Recipe</a>
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=6" alt="Product 6">
+            <h3>Product 6</h3>
+            <p>$45.20</p>
+            <a href="cart.html?product=6" class="button">P6-Add to Cart</a>
         </div>
     </div>
+
 </body>
 </html>
